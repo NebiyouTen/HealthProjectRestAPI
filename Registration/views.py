@@ -1,0 +1,55 @@
+from rest_framework import viewsets
+from Registration.serializers import *
+from Registration.models import *
+from Registration.permission import IsAuthenticatedOrCreate
+
+class ClientViewSet(viewsets.ModelViewSet):
+    queryset = Client.objects.all()
+    serializer_class = ClientSerializer
+    #permission_classes = (IsAuthenticatedOrCreate,)
+
+class CallViewSet(viewsets.ModelViewSet):
+    queryset = Calls.objects.all()
+    serializer_class = CallsSerializer
+    permission_classes = (IsAuthenticatedOrCreate,)
+
+class StaffViewSet(viewsets.ModelViewSet):
+    queryset = Staff.objects.all()
+    serializer_class = Staff
+    #permission_classes = (IsAuthenticatedOrCreate,)
+
+class Safe_SpacesViewSet(viewsets.ModelViewSet):
+    queryset = Safe_Spaces.objects.all()
+    serializer_class = Safe_SpacesSerializer
+    permission_classes = (IsAuthenticatedOrCreate,)
+
+class Police_StationsViewSet(viewsets.ModelViewSet):
+    queryset = Police_Stations.objects.all()
+    serializer_class = Police_StationsSerializer
+    #permission_classes = (IsAuthenticatedOrCreate,)
+
+class Health_CentersViewSet(viewsets.ModelViewSet):
+    queryset = Health_Centers.objects.all()
+    serializer_class = Health_CentersSerializer
+    permission_classes = (IsAuthenticatedOrCreate,)
+
+class ServiceViewSet(viewsets.ModelViewSet):
+    queryset = Service.objects.all()
+    serializer_class = ServiceSerializer
+    permission_classes = (IsAuthenticatedOrCreate,)
+
+class Police_Station_serviceViewSet(viewsets.ModelViewSet):
+    queryset = Police_Station_service.objects.all()
+    serializer_class = Police_Station_serviceSerializer
+    permission_classes = (IsAuthenticatedOrCreate,)
+
+
+class Health_Center_serviceViewSet(viewsets.ModelViewSet):
+    queryset = Health_Center_service.objects.all()
+    serializer_class = Health_Center_serviceSerializer
+    permission_classes = (IsAuthenticatedOrCreate,)
+
+
+
+
+

@@ -1,29 +1,16 @@
-from .resource import *
-from tastypie.api import Api
-from django.conf.urls import url, include
+from django.conf.urls import url
+from rest_framework import routers
+from Registration.views import *
 
+router = routers.DefaultRouter()
+router.register(r'clients', ClientViewSet)
+router.register(r'calls', CallViewSet)
+router.register(r'stafs', ClientViewSet)
+router.register(r'safe_spaces', CallViewSet)
+router.register(r'police_stations', ClientViewSet)
+router.register(r'health_centers', CallViewSet)
+router.register(r'services', ClientViewSet)
+router.register(r'police_stations_services', CallViewSet)
+router.register(r'health_center_services', ClientViewSet)
 
-health_api = Api(api_name='v1')
-
-health_api.register(Safe_SpacesResource())
-
-health_api.register(Health_CentersResource())
-health_api.register(Police_StationsResource())
-health_api.register(ClientsResource())
-
-health_api.register(CallsResource())
-
-
-
-health_api.register(StaffResource())
-
-
-
-health_api.register(ServicesResource())
-health_api.register(Police_Station_serviceResource())
-health_api.register(Health_Center_serviceResource())
-
-
-urlpatterns = [
-    url('', include(health_api.urls)),
-]
+urlpatterns = router.urls
