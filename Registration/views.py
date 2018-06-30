@@ -6,17 +6,26 @@ from Registration.permission import IsAuthenticatedOrCreate
 class ClientViewSet(viewsets.ModelViewSet):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
-    #permission_classes = (IsAuthenticatedOrCreate,)
+    permission_classes = (IsAuthenticatedOrCreate,)
 
 class CallViewSet(viewsets.ModelViewSet):
     queryset = Calls.objects.all()
     serializer_class = CallsSerializer
+
+    def get_queryset(self):
+        query_set = Calls.objects.all()
+        phone_number = self.request.query_params.get('phone_number', None)
+        if phone_number is not None:
+            query_set = query_set.filter(phone_number=phone_number)
+
+        return query_set
     permission_classes = (IsAuthenticatedOrCreate,)
+
 
 class StaffViewSet(viewsets.ModelViewSet):
     queryset = Staff.objects.all()
-    serializer_class = Staff
-    #permission_classes = (IsAuthenticatedOrCreate,)
+    serializer_class = StaffSerializer
+    permission_classes = (IsAuthenticatedOrCreate,)
 
 class Safe_SpacesViewSet(viewsets.ModelViewSet):
     queryset = Safe_Spaces.objects.all()
@@ -26,7 +35,7 @@ class Safe_SpacesViewSet(viewsets.ModelViewSet):
 class Police_StationsViewSet(viewsets.ModelViewSet):
     queryset = Police_Stations.objects.all()
     serializer_class = Police_StationsSerializer
-    #permission_classes = (IsAuthenticatedOrCreate,)
+    permission_classes = (IsAuthenticatedOrCreate,)
 
 class Health_CentersViewSet(viewsets.ModelViewSet):
     queryset = Health_Centers.objects.all()
@@ -48,8 +57,4 @@ class Health_Center_serviceViewSet(viewsets.ModelViewSet):
     queryset = Health_Center_service.objects.all()
     serializer_class = Health_Center_serviceSerializer
     permission_classes = (IsAuthenticatedOrCreate,)
-
-
-
-
 

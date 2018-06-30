@@ -93,13 +93,11 @@ WSGI_APPLICATION = 'HealthProjectRestAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-
-        'NAME': 'health_project_db',
+        'NAME': 'health_db',
         'USER': 'root',
         'PASSWORD': 'Yabi2008',
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
-
     }
 }
 
