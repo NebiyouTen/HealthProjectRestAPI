@@ -31,7 +31,7 @@ Each table or resource can be accessed, updated or deleted using http request.
 
 The request bodies can include JSON objects when updating or creating new entries.
 ## Authentication
-The authentication method used for the API is OAUTH 2.0. Afters Users are registered, they will be provided with a client ID and a client secret. Using these credentials, users can request for an application token using the link, http://<url>/auth/token. After getting the token, users will be allowed to access resources. 
+The authentication method used for the API is OAUTH 2.0. Afters Users are registered, they will be provided with a client ID and a client secret. Using these credentials, users can request for an application token using the link, **http://nyismaw.pythonanywhere.com/auth/token/**. After getting the token, users will be allowed to access resources. 
    
 .  
 
