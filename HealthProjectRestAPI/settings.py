@@ -25,7 +25,11 @@ SECRET_KEY = '$rfxj6(-5%hzai=1r4yss*autzjb##x1^i0$s2qn8n5i1@5)%-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = []
+=======
+ALLOWED_HOSTS = ["*"]
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
 
 
 # Application definition

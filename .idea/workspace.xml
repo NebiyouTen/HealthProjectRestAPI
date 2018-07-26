@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d53126c-d69c-4bfd-8983-cd41ba791336" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Registration/serializers.py" afterPath="$PROJECT_DIR$/Registration/serializers.py" />
       <change beforePath="$PROJECT_DIR$/myenv/bin/activate" afterPath="" />
       <change beforePath="$PROJECT_DIR$/myenv/bin/activate.csh" afterPath="" />
@@ -495,6 +496,29 @@
       <change beforePath="$PROJECT_DIR$/myenv/share/python-wheels/six-1.10.0-py2.py3-none-any.whl" afterPath="" />
       <change beforePath="$PROJECT_DIR$/myenv/share/python-wheels/urllib3-1.13.1-py2.py3-none-any.whl" afterPath="" />
       <change beforePath="$PROJECT_DIR$/myenv/share/python-wheels/wheel-0.29.0-py2.py3-none-any.whl" afterPath="" />
+=======
+      <change beforePath="$PROJECT_DIR$/HealthProjectRestAPI/settings.py" afterPath="$PROJECT_DIR$/HealthProjectRestAPI/settings.py" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0002_auto_20180621_1026.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0003_auto_20180622_1101.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0004_auto_20180622_1104.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0005_auto_20180622_1124.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0006_auto_20180626_0118.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0007_auto_20180626_0130.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0008_auto_20180626_0131.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0009_auto_20180626_1236.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0010_auto_20180626_1240.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0011_auto_20180626_1245.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0012_auto_20180626_1246.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0013_auto_20180626_1247.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0014_auto_20180626_1250.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0015_auto_20180627_1347.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/migrations/0016_auto_20180628_1051.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Registration/models.py" afterPath="$PROJECT_DIR$/Registration/models.py" />
+      <change beforePath="$PROJECT_DIR$/Registration/serializers.py" afterPath="$PROJECT_DIR$/Registration/serializers.py" />
+      <change beforePath="$PROJECT_DIR$/Registration/urls.py" afterPath="$PROJECT_DIR$/Registration/urls.py" />
+      <change beforePath="$PROJECT_DIR$/Registration/views.py" afterPath="$PROJECT_DIR$/Registration/views.py" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -508,7 +532,11 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration/models.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="468">
+=======
+            <state relative-caret-position="486">
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
               <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="17" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -547,6 +575,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -555,16 +584,35 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="mixins.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/rest_framework/mixins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration/migrations/0001_initial.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Registration/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
             </state>
           </provider>
         </entry>
@@ -572,8 +620,13 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="198">
               <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="40" />
+=======
+            <state relative-caret-position="270">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -581,11 +634,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HealthProjectRestAPI/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
               <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="2" selection-end-column="41" />
+=======
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Registration/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
               <folding />
             </state>
           </provider>
@@ -594,18 +655,31 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HealthProjectRestAPI/settings.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2016">
               <caret line="112" column="51" lean-forward="false" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
+=======
+            <state relative-caret-position="450">
+              <caret line="112" column="51" lean-forward="true" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Registration/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
               <caret line="129" column="22" lean-forward="false" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+=======
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Registration/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-71">
+              <caret line="79" column="92" lean-forward="false" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -646,8 +720,13 @@
         <option value="$PROJECT_DIR$/Registration/urls.py" />
         <option value="$PROJECT_DIR$/HealthProjectRestAPI/settings.py" />
         <option value="$PROJECT_DIR$/Registration/models.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Registration/views.py" />
         <option value="$PROJECT_DIR$/Registration/serializers.py" />
+=======
+        <option value="$PROJECT_DIR$/Registration/serializers.py" />
+        <option value="$PROJECT_DIR$/Registration/views.py" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
       </list>
     </option>
   </component>
@@ -673,7 +752,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -692,10 +774,23 @@
               <item name="HealthProjectRestAPI" type="462c0819:PsiDirectoryNode" />
               <item name="Registration" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="HealthProjectRestAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HealthProjectRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="Registration" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -740,6 +835,7 @@
       <option name="project" value="LOCAL" />
       <updated>1530314365205</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="Permission and OATUH">
       <created>1530385012043</created>
       <option name="number" value="00002" />
@@ -752,6 +848,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+=======
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="682" y="-4" width="1303" height="780" extended-state="6" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -780,14 +883,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Authentication and Resource updates" />
+<<<<<<< HEAD
     <MESSAGE value="Permission and OATUH" />
     <option name="LAST_COMMIT_MESSAGE" value="Permission and OATUH" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="Authentication and Resource updates" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Registration/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
     <entry file="file://$PROJECT_DIR$/Registration/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1054,10 +1171,24 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/HealthProjectRestAPI/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
     <entry file="file:///usr/local/lib/python3.5/dist-packages/rest_framework/mixins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
         </state>
       </provider>
     </entry>
@@ -1065,13 +1196,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HealthProjectRestAPI/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2016">
           <caret line="112" column="51" lean-forward="false" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
+=======
+        <state relative-caret-position="450">
+          <caret line="112" column="51" lean-forward="true" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
           <folding />
         </state>
       </provider>
@@ -1092,6 +1232,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Registration/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1119,6 +1260,11 @@
     <entry file="file://$PROJECT_DIR$/Registration/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
+=======
+    <entry file="file://$PROJECT_DIR$/Registration/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
           <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="17" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -1128,30 +1274,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Registration/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="198">
           <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="40" />
+=======
+        <state relative-caret-position="270">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Registration/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/Registration/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="79" column="92" lean-forward="false" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Registration/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="129" column="22" lean-forward="false" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/Registration/permission.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Registration/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+>>>>>>> 67c58ade55eeb76db345ad4be9b4817b436a08ec
           </folding>
         </state>
       </provider>
