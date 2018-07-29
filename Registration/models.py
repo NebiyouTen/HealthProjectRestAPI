@@ -66,10 +66,10 @@ class Service(models.Model):
     staff = models.ForeignKey(Staff, on_delete=models.CASCADE, null=True)
     safe_spaces = models.ForeignKey(Safe_Spaces, on_delete=models.CASCADE, null=True)
     statuses = (
-        ('OP','On progress'),
+        ('IP','In progress'),
         ('RE','Resolved'),
     )
-    status =  models.CharField(max_length=2,choices=statuses,default='OP')
+    status =  models.CharField(max_length=2,choices=statuses,default='IP')
 
 
 class Automated_call(models.Model):

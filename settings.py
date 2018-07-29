@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'Registration',
     'rest_framework',
     'oauth2_provider',
+    'corsheaders',
     'social_django',
     'rest_framework_social_oauth2',
     'django.contrib.admin',
@@ -123,6 +124,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+days_in_sec  = 3600*24
+OAUTH2_PROVIDER = {
+        'ACCESS_TOKEN_EXPIRE_SECONDS': days_in_sec * 3,
+        'OAUTH_SINGLE_ACCESS_TOKEN': True,
+        'OAUTH_DELETE_EXPIRED': True
+ }
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
