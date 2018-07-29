@@ -12,6 +12,11 @@ class StaffSerializer(serializers.ModelSerializer):
         model = Staff
         fields = '__all__'#('first_name','last_name','address','designation')
 
+class Automated_callSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Automated_call
+        fields = '__all__'#('first_name','last_name','address','designation')
+
 class Safe_SpacesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Safe_Spaces
@@ -62,6 +67,7 @@ class ServiceSerializer(serializers.ModelSerializer):
 
         service = Service.objects.create(calls=call,staff=staff,
                                                             safe_spaces=safe_spaces, **validated_data)
+
         return service
 
 class Police_Station_serviceSerializer(serializers.ModelSerializer):
@@ -84,6 +90,8 @@ class Police_Station_serviceSerializer(serializers.ModelSerializer):
         service = Police_Station_service.objects.create(services=services,police_stations=police_stations,
                                                             **validated_data)
         return service
+
+
 
 class Health_Center_serviceSerializer(serializers.ModelSerializer):
 

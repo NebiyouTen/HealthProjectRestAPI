@@ -69,7 +69,7 @@ class Service(models.Model):
         ('OP','On progress'),
         ('RE','Resolved'),
     )
-    status =  models.CharField(max_length=2,choices=statuses)
+    status =  models.CharField(max_length=2,choices=statuses,default='OP')
 
 
 class Automated_call(models.Model):

@@ -58,3 +58,7 @@ class Health_Center_serviceViewSet(viewsets.ModelViewSet):
     serializer_class = Health_Center_serviceSerializer
     permission_classes = (IsAuthenticatedOrCreate,)
 
+class Automated_callViewSet(viewsets.ModelViewSet):
+    queryset = Automated_call.objects.all()
+    serializer_class = Automated_callSerializer
+    permission_classes = (IsAuthenticatedOrCreate,)
