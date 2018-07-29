@@ -65,6 +65,16 @@ class Service(models.Model):
 
     staff = models.ForeignKey(Staff, on_delete=models.CASCADE, null=True)
     safe_spaces = models.ForeignKey(Safe_Spaces, on_delete=models.CASCADE, null=True)
+    statuses = (
+        ('OP','On progress'),
+        ('RE','Resolved'),
+    )
+    status =  models.CharField(max_length=2,choices=statuses)
+
+
+class Automated_call(models.Model):
+    recording_url = models.CharField(max_length=400)
+    call_time = models.DateTimeField()
 
 
 class Police_Station_service(models.Model):
@@ -76,4 +86,3 @@ class Health_Center_service(models.Model):
     health_center_service_id = models.AutoField(primary_key=True)
     services = models.ForeignKey(Service, on_delete=models.CASCADE, null=True)
     health_centers = models.ForeignKey(Health_Centers, on_delete=models.CASCADE, null=True)
-

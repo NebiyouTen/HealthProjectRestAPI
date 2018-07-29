@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'HealthProjectRestAPI.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
-# My SQL / scaling SQL lite / 
+# My SQL / scaling SQL lite /
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
