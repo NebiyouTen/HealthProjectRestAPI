@@ -3,6 +3,12 @@ from Registration.serializers import *
 from Registration.models import *
 from Registration.permission import IsAuthenticatedOrCreate
 
+
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    # permission_classes = (IsAuthenticatedOrCreate,)
+
 class ClientViewSet(viewsets.ModelViewSet):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
@@ -19,7 +25,7 @@ class CallViewSet(viewsets.ModelViewSet):
             query_set = query_set.filter(phone_number=phone_number)
 
         return query_set
-    permission_classes = (IsAuthenticatedOrCreate,)
+    # permission_classes = (IsAuthenticatedOrCreate,)
 
 
 class StaffViewSet(viewsets.ModelViewSet):
