@@ -14,6 +14,9 @@ router.register(r'police_station_services', Police_Station_serviceViewSet)
 router.register(r'health_center_services', Health_Center_serviceViewSet)
 router.register(r'automated_call', Automated_callViewSet)
 router.register(r'user', UserViewSet)
+router.register(r'districts', DistrictViewSet)
+router.register(r'provinces', ProvinceViewSet)
+router.register(r'sectors', SectorViewSet)
 
 
 urlpatterns = router.urls

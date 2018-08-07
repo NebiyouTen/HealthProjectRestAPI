@@ -1,6 +1,23 @@
 from django.db import models
 import uuid
 
+class Province(models.Model):
+    province_id = models.AutoField(primary_key=True)
+    province_name = models.CharField(max_length=20)
+
+
+class District(models.Model):
+    district_id = models.AutoField(primary_key=True)
+    district_name = models.CharField(max_length=20)
+    province_id = models.ForeignKey(Province,to_field="province_id", on_delete=models.CASCADE, null=True)
+
+
+class Sector(models.Model):
+    sector_id = models.AutoField(primary_key=True)
+    sector_name = models.CharField(max_length=20)
+    district_id = models.ForeignKey(District,to_field="district_id", on_delete=models.CASCADE, null=True)
+
+
 class Client(models.Model):
     client_id = models.AutoField(primary_key=True)
     first_name = models.CharField(max_length=20)

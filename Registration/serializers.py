@@ -124,3 +124,22 @@ class Health_Center_serviceSerializer(serializers.ModelSerializer):
         service = Health_Center_service.objects.create(services=services,health_centers=health_centers,
                                                             **validated_data)
         return service
+
+
+class ProvinceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Province
+        fields = '__all__'
+
+
+class DistrictSerializer(serializers.ModelSerializer):
+    province_id = serializers.PrimaryKeyRelatedField(queryset=Province.objects.all())
+    class Meta:
+        model = District
+        fields = '__all__'
+
+class SectorSerializer(serializers.ModelSerializer):
+    district_id = serializers.PrimaryKeyRelatedField(queryset=District.objects.all())
+    class Meta:
+        model = Sector
+        fields = '__all__'
