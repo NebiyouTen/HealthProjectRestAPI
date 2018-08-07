@@ -2,15 +2,26 @@ from rest_framework import viewsets
 from Registration.serializers import *
 from Registration.models import *
 from Registration.permission import IsAuthenticatedOrCreate
+from django.shortcuts import get_object_or_404
+from rest_framework.response import Response
 
 class DistrictViewSet(viewsets.ModelViewSet):
     queryset = District.objects.all()
     serializer_class = DistrictSerializer
-
+    def retrieve(self, request, pk=None):
+        sectors = Sector.objects.filter(district_id=pk)
+        serializer = SectorSerializer(sectors, many=True)
+        return Response(serializer.data)
 
 class ProvinceViewSet(viewsets.ModelViewSet):
     queryset = Province.objects.all()
     serializer_class = ProvinceSerializer
+    def retrieve(self, request, pk=None):
+        districts = District.objects.filter(province_id=pk)
+        # sectors = get_object_or_404(queryset, district_id=pk)
+        serializer = DistrictSerializer(districts, many=True)
+        return Response(serializer.data)
+
 
 class SectorViewSet(viewsets.ModelViewSet):
     queryset = Sector.objects.all()
